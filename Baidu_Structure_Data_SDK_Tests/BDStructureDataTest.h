@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <GHUnitIOS/GHUnit.h>
+#import "PSSClient.h"
 
-@interface BDStructureDataTest : NSObject
+@interface BDStructureDataTest : GHTestCase
+
+@property (strong, nonatomic) PSSClient *client;
 
 @end

@@ -9,6 +9,4 @@
 #ifndef Baidu_Structure_Data_SDK_BDErrorCode_h
 #define Baidu_Structure_Data_SDK_BDErrorCode_h
 
-
-
 #endif

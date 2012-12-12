@@ -10,4 +10,10 @@
 
 @interface Response : NSObject
 
+-(id)initWithRawData:(NSString *)data;
+
+@property (assign, nonatomic) int errorCode;
+@property (strong, nonatomic) NSString *errorMsg;
+@property (strong, nonatomic) NSString *rawData;
+
 @end

@@ -8,6 +8,28 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BDRequest : NSObject
+typedef enum {
+    GET,
+    POST
+}HttpMethod;
+
+@interface BDRequest : NSObject{
+    NSMutableDictionary *queryStrings;
+    NSMutableDictionary *body;
+}
+
+-(id)initWithUrl:(NSString *)preUrl
+       extendUrl:(NSString *)extUrl
+      httpMethod:(HttpMethod)httpMtd;
+-(void)addQueryStringValue:(NSString *)value
+              forKey:(NSString *)key;
+-(void)addBody:(id)value
+        forKey:(NSString *)key;
+-(NSMutableURLRequest *)buildRequest;
+-(NSString *)execute;
+
+@property (strong, nonatomic) NSString *url;
+@property (strong, nonatomic) NSString *extendUrl;
+@property (assign, nonatomic) HttpMethod method;
 
 @end

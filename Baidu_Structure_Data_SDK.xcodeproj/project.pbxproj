@@ -19,9 +19,35 @@
 		6B68F60F1663B09B00522FFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B68F60E1663B09B00522FFC /* ViewController.m */; };
 		6B68F6121663B09B00522FFC /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B68F6101663B09B00522FFC /* ViewController_iPhone.xib */; };
 		6B68F6151663B09B00522FFC /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B68F6131663B09B00522FFC /* ViewController_iPad.xib */; };
+		6B68F6271663B3D300522FFC /* BDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B68F6261663B3D300522FFC /* BDRequest.m */; };
+		6B68F62A1663BDE700522FFC /* Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B68F6291663BDE700522FFC /* Table.m */; };
+		6B884C9216650B4C009C1794 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B884C9116650B4C009C1794 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6BB71AC5166C47AF007D6556 /* PSSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB71AC4166C47AF007D6556 /* PSSClient.m */; };
+		6BB71AC9166C4BEF007D6556 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB71AC8166C4BEF007D6556 /* Record.m */; };
+		6BB71ACC166C4DB9007D6556 /* Query.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB71ACB166C4DB9007D6556 /* Query.m */; };
+		6BB71ACF166C4F2E007D6556 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB71ACE166C4F2E007D6556 /* Response.m */; };
+		6BB71AD6166C5BB3007D6556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B68F5F51663B09B00522FFC /* UIKit.framework */; };
+		6BB71AD7166C5BB3007D6556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B68F5F71663B09B00522FFC /* Foundation.framework */; };
+		6BB71AD8166C5BB3007D6556 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B68F5F91663B09B00522FFC /* CoreGraphics.framework */; };
+		6BB71ADE166C5BB3007D6556 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BB71ADC166C5BB3007D6556 /* InfoPlist.strings */; };
+		6BB71AE0166C5BB3007D6556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB71ADF166C5BB3007D6556 /* main.m */; };
+		6BB71AE6166C5BB3007D6556 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB71AE5166C5BB3007D6556 /* Default.png */; };
+		6BB71AE8166C5BB3007D6556 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB71AE7166C5BB3007D6556 /* Default@2x.png */; };
+		6BB71AEA166C5BB3007D6556 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB71AE9166C5BB3007D6556 /* Default-568h@2x.png */; };
+		6BB71AEF166C5BFB007D6556 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB71AEE166C5BFB007D6556 /* GHUnitIOS.framework */; };
+		6BB71AF2166C5CE6007D6556 /* BDStructureDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB71AF1166C5CE6007D6556 /* BDStructureDataTest.m */; };
+		6BB71B12166C5EF4007D6556 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB71ACE166C4F2E007D6556 /* Response.m */; };
+		6BB71B13166C5EFB007D6556 /* Query.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB71ACB166C4DB9007D6556 /* Query.m */; };
+		6BB71B14166C5EFB007D6556 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB71AC8166C4BEF007D6556 /* Record.m */; };
+		6BB71B15166C5EFB007D6556 /* PSSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB71AC4166C47AF007D6556 /* PSSClient.m */; };
+		6BB71B17166C5EFB007D6556 /* Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B68F6291663BDE700522FFC /* Table.m */; };
+		6BB71B18166C5EFB007D6556 /* BDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B68F6261663B3D300522FFC /* BDRequest.m */; };
+		6BB71B1E166C6BED007D6556 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB71B1D166C6BED007D6556 /* Action.m */; };
+		6BB71B1F166C70F4007D6556 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB71B1D166C6BED007D6556 /* Action.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B1A548216679C6C009CE108 /* BDErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDErrorCode.h; sourceTree = "<group>"; };
 		6B68F5F11663B09B00522FFC /* Baidu_Structure_Data_SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baidu_Structure_Data_SDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B68F5F51663B09B00522FFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6B68F5F71663B09B00522FFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +65,33 @@
 		6B68F60E1663B09B00522FFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6B68F6111663B09B00522FFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		6B68F6141663B09B00522FFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		6B68F6251663B3D300522FFC /* BDRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDRequest.h; path = Baidu_Structure_Data_SDK/BDRequest.h; sourceTree = "<group>"; };
+		6B68F6261663B3D300522FFC /* BDRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BDRequest.m; path = Baidu_Structure_Data_SDK/BDRequest.m; sourceTree = "<group>"; };
+		6B68F6281663BDE700522FFC /* Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
+		6B68F6291663BDE700522FFC /* Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table.m; sourceTree = "<group>"; };
+		6B884C9016650B4C009C1794 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		6B884C9116650B4C009C1794 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		6BB71AC3166C47AF007D6556 /* PSSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSClient.h; sourceTree = "<group>"; };
+		6BB71AC4166C47AF007D6556 /* PSSClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSClient.m; sourceTree = "<group>"; };
+		6BB71AC7166C4BEF007D6556 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		6BB71AC8166C4BEF007D6556 /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		6BB71ACA166C4DB9007D6556 /* Query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Query.h; sourceTree = "<group>"; };
+		6BB71ACB166C4DB9007D6556 /* Query.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Query.m; sourceTree = "<group>"; };
+		6BB71ACD166C4F2E007D6556 /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		6BB71ACE166C4F2E007D6556 /* Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		6BB71AD4166C5BB3007D6556 /* Baidu_Structure_Data_SDK_Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baidu_Structure_Data_SDK_Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB71ADB166C5BB3007D6556 /* Baidu_Structure_Data_SDK_Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Baidu_Structure_Data_SDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		6BB71ADD166C5BB3007D6556 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BB71ADF166C5BB3007D6556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BB71AE1166C5BB3007D6556 /* Baidu_Structure_Data_SDK_Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Baidu_Structure_Data_SDK_Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6BB71AE5166C5BB3007D6556 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6BB71AE7166C5BB3007D6556 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6BB71AE9166C5BB3007D6556 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6BB71AEE166C5BFB007D6556 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		6BB71AF0166C5CE6007D6556 /* BDStructureDataTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDStructureDataTest.h; sourceTree = "<group>"; };
+		6BB71AF1166C5CE6007D6556 /* BDStructureDataTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDStructureDataTest.m; sourceTree = "<group>"; };
+		6BB71B1C166C6BED007D6556 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		6BB71B1D166C6BED007D6556 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +105,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6BB71AD1166C5BB3007D6556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB71AD6166C5BB3007D6556 /* UIKit.framework in Frameworks */,
+				6BB71AD7166C5BB3007D6556 /* Foundation.framework in Frameworks */,
+				6BB71AD8166C5BB3007D6556 /* CoreGraphics.framework in Frameworks */,
+				6BB71AEF166C5BFB007D6556 /* GHUnitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		6B68F5E61663B09B00522FFC = {
 			isa = PBXGroup;
 			children = (
+				6BB71B1C166C6BED007D6556 /* Action.h */,
+				6BB71B1D166C6BED007D6556 /* Action.m */,
+				6BB71ACD166C4F2E007D6556 /* Response.h */,
+				6BB71ACE166C4F2E007D6556 /* Response.m */,
+				6BB71ACA166C4DB9007D6556 /* Query.h */,
+				6BB71ACB166C4DB9007D6556 /* Query.m */,
+				6BB71AC7166C4BEF007D6556 /* Record.h */,
+				6BB71AC8166C4BEF007D6556 /* Record.m */,
+				6BB71AC3166C47AF007D6556 /* PSSClient.h */,
+				6BB71AC4166C47AF007D6556 /* PSSClient.m */,
+				6B1A548216679C6C009CE108 /* BDErrorCode.h */,
+				6B884C9016650B4C009C1794 /* JSONKit.h */,
+				6B884C9116650B4C009C1794 /* JSONKit.m */,
+				6B68F6281663BDE700522FFC /* Table.h */,
+				6B68F6291663BDE700522FFC /* Table.m */,
+				6B68F6251663B3D300522FFC /* BDRequest.h */,
+				6B68F6261663B3D300522FFC /* BDRequest.m */,
 				6B68F5FB1663B09B00522FFC /* Baidu_Structure_Data_SDK */,
+				6BB71AD9166C5BB3007D6556 /* Baidu_Structure_Data_SDK_Tests */,
 				6B68F5F41663B09B00522FFC /* Frameworks */,
 				6B68F5F21663B09B00522FFC /* Products */,
 			);
@@ -68,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				6B68F5F11663B09B00522FFC /* Baidu_Structure_Data_SDK.app */,
+				6BB71AD4166C5BB3007D6556 /* Baidu_Structure_Data_SDK_Tests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +158,7 @@
 		6B68F5F41663B09B00522FFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6BB71AEE166C5BFB007D6556 /* GHUnitIOS.framework */,
 				6B68F5F51663B09B00522FFC /* UIKit.framework */,
 				6B68F5F71663B09B00522FFC /* Foundation.framework */,
 				6B68F5F91663B09B00522FFC /* CoreGraphics.framework */,
@@ -110,6 +194,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6BB71AD9166C5BB3007D6556 /* Baidu_Structure_Data_SDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6BB71ADA166C5BB3007D6556 /* Supporting Files */,
+				6BB71AF0166C5CE6007D6556 /* BDStructureDataTest.h */,
+				6BB71AF1166C5CE6007D6556 /* BDStructureDataTest.m */,
+			);
+			path = Baidu_Structure_Data_SDK_Tests;
+			sourceTree = "<group>";
+		};
+		6BB71ADA166C5BB3007D6556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BB71ADB166C5BB3007D6556 /* Baidu_Structure_Data_SDK_Tests-Info.plist */,
+				6BB71ADC166C5BB3007D6556 /* InfoPlist.strings */,
+				6BB71ADF166C5BB3007D6556 /* main.m */,
+				6BB71AE1166C5BB3007D6556 /* Baidu_Structure_Data_SDK_Tests-Prefix.pch */,
+				6BB71AE5166C5BB3007D6556 /* Default.png */,
+				6BB71AE7166C5BB3007D6556 /* Default@2x.png */,
+				6BB71AE9166C5BB3007D6556 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,6 +236,23 @@
 			name = Baidu_Structure_Data_SDK;
 			productName = Baidu_Structure_Data_SDK;
 			productReference = 6B68F5F11663B09B00522FFC /* Baidu_Structure_Data_SDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BB71AD3166C5BB3007D6556 /* Baidu_Structure_Data_SDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB71AEB166C5BB3007D6556 /* Build configuration list for PBXNativeTarget "Baidu_Structure_Data_SDK_Tests" */;
+			buildPhases = (
+				6BB71AD0166C5BB3007D6556 /* Sources */,
+				6BB71AD1166C5BB3007D6556 /* Frameworks */,
+				6BB71AD2166C5BB3007D6556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Baidu_Structure_Data_SDK_Tests;
+			productName = Baidu_Structure_Data_SDK_Tests;
+			productReference = 6BB71AD4166C5BB3007D6556 /* Baidu_Structure_Data_SDK_Tests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,6 +277,7 @@
 			projectRoot = "";
 			targets = (
 				6B68F5F01663B09B00522FFC /* Baidu_Structure_Data_SDK */,
+				6BB71AD3166C5BB3007D6556 /* Baidu_Structure_Data_SDK_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -170,6 +296,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6BB71AD2166C5BB3007D6556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB71ADE166C5BB3007D6556 /* InfoPlist.strings in Resources */,
+				6BB71AE6166C5BB3007D6556 /* Default.png in Resources */,
+				6BB71AE8166C5BB3007D6556 /* Default@2x.png in Resources */,
+				6BB71AEA166C5BB3007D6556 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -180,6 +317,30 @@
 				6B68F6021663B09B00522FFC /* main.m in Sources */,
 				6B68F6061663B09B00522FFC /* AppDelegate.m in Sources */,
 				6B68F60F1663B09B00522FFC /* ViewController.m in Sources */,
+				6B68F6271663B3D300522FFC /* BDRequest.m in Sources */,
+				6B68F62A1663BDE700522FFC /* Table.m in Sources */,
+				6B884C9216650B4C009C1794 /* JSONKit.m in Sources */,
+				6BB71AC5166C47AF007D6556 /* PSSClient.m in Sources */,
+				6BB71AC9166C4BEF007D6556 /* Record.m in Sources */,
+				6BB71ACC166C4DB9007D6556 /* Query.m in Sources */,
+				6BB71ACF166C4F2E007D6556 /* Response.m in Sources */,
+				6BB71B1F166C70F4007D6556 /* Action.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB71AD0166C5BB3007D6556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB71AE0166C5BB3007D6556 /* main.m in Sources */,
+				6BB71AF2166C5CE6007D6556 /* BDStructureDataTest.m in Sources */,
+				6BB71B12166C5EF4007D6556 /* Response.m in Sources */,
+				6BB71B13166C5EFB007D6556 /* Query.m in Sources */,
+				6BB71B14166C5EFB007D6556 /* Record.m in Sources */,
+				6BB71B15166C5EFB007D6556 /* PSSClient.m in Sources */,
+				6BB71B17166C5EFB007D6556 /* Table.m in Sources */,
+				6BB71B18166C5EFB007D6556 /* BDRequest.m in Sources */,
+				6BB71B1E166C6BED007D6556 /* Action.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +369,14 @@
 				6B68F6141663B09B00522FFC /* en */,
 			);
 			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		6BB71ADC166C5BB3007D6556 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB71ADD166C5BB3007D6556 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,6 +455,46 @@
 			};
 			name = Release;
 		};
+		6BB71AEC166C5BB3007D6556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baidu_Structure_Data_SDK_Tests/Baidu_Structure_Data_SDK_Tests-Prefix.pch";
+				INFOPLIST_FILE = "Baidu_Structure_Data_SDK_Tests/Baidu_Structure_Data_SDK_Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BB71AED166C5BB3007D6556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baidu_Structure_Data_SDK_Tests/Baidu_Structure_Data_SDK_Tests-Prefix.pch";
+				INFOPLIST_FILE = "Baidu_Structure_Data_SDK_Tests/Baidu_Structure_Data_SDK_Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -303,6 +512,15 @@
 			buildConfigurations = (
 				6B68F6191663B09B00522FFC /* Debug */,
 				6B68F61A1663B09B00522FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB71AEB166C5BB3007D6556 /* Build configuration list for PBXNativeTarget "Baidu_Structure_Data_SDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB71AEC166C5BB3007D6556 /* Debug */,
+				6BB71AED166C5BB3007D6556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
